@@ -1,5 +1,5 @@
-li a:hover {
-color: #a9a9a9;
+a .img-logo {
+z-index: 600;
 }
 
 body, .container
@@ -28,10 +28,6 @@ background: url(../img/background.jpg) repeat;
 background-color: #fff;
  }
 
-.navbar {
-position: relative;
-}
-
  .highlight {
 color: #ff3b3f;
  }
@@ -45,17 +41,8 @@ margin-top: 5px;
 margin-bottom: 5px;
  }
 
- .navbar-header {
-color: #a9a9a9;
- }
-
 h1 {
 color: #a9a9a9;
-}
-
-
-.more-margin {
-    margin-top: 3%;
 }
 
 .img-logo {
@@ -69,9 +56,40 @@ width: 100px;
 transform: rotate(-15deg);
 }
 
-a .img-logo {
-z-index: 600;
+li a:hover {
+color: #a9a9a9;
 }
+
+.more-margin {
+    margin-top: 3%;
+}
+
+.navbar {
+border: 0;
+position: relative;
+}
+
+.navbar-brand,
+.navbar-nav > li > a {
+text-shadow: none;
+}
+
+ .navbar-header {
+color: #a9a9a9;
+ }
+
+.navbar-inverse {
+  background-image:none;
+  filter: none;
+  background-repeat: none;
+  border-radius: 0px;
+}
+
+navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a {
+text-shadow: none;
+}
+
 
 
 
