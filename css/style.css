@@ -18,6 +18,10 @@ body,
     background-size: auto auto;
 }
 
+body>div.container {
+    padding-top: 60px;
+}
+
 #footer,
 #header,
 .header,
@@ -47,14 +51,8 @@ h1 {
     color: #a9a9a9;
 }
 
-.more-margin {
-    margin-top: 8%;
-}
-
 .img-logo {
     left: 15%;
-    position: absolute;
-    top: 2%;
     border-radius: 50%;
     height: 10%;
     width: 5%;
