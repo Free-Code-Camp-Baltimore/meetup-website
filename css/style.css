@@ -1,10 +1,12 @@
-body, .container
- {
-background-color: #efefef;
- }
+body,
+.container {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #efefef;
+}
 
- body, .container {
-background: url(../img/background.jpg) repeat;
+body,
+.container {
+    background: url(../img/background.jpg) repeat;
     background-color: rgba(0, 0, 0, 0);
     background-image: url("../img/bg-content.jpg");
     background-repeat: repeat;
@@ -16,29 +18,33 @@ background: url(../img/background.jpg) repeat;
     background-size: auto auto;
 }
 
- #footer, #header,.header,.navbar, #navbar {
-background-color: #fff;
- }
+#footer,
+#header,
+.header,
+.navbar,
+#navbar {
+    background-color: #fff;
+}
 
- .highlight {
-color: #ff3b3f;
- }
+.highlight {
+    color: #ff3b3f;
+}
 
 .highlight-2 {
-background-color: #caebf2;
-line-height: 25px;
-padding-top: 5px;
-padding-bottom: 5px;
-margin-top: 5px;
-margin-bottom: 5px;
- }
+    background-color: #caebf2;
+    line-height: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
- .navbar-header {
-color: #a9a9a9;
- }
+.navbar-header {
+    color: #a9a9a9;
+}
 
 h1 {
-color: #a9a9a9;
+    color: #a9a9a9;
 }
 
 .more-margin {
@@ -46,14 +52,13 @@ color: #a9a9a9;
 }
 
 .img-logo {
-left: 15%;
-position: absolute;
-top: 2%;
-border-radius: 50%;
-height: 10%;
-width: 5%;
--ms-transform: rotate(-15deg);
--webkit-transform: rotate(-15deg);
-transform: rotate(-15deg);
+    left: 15%;
+    position: absolute;
+    top: 2%;
+    border-radius: 50%;
+    height: 10%;
+    width: 5%;
+    -ms-transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
 }
-
